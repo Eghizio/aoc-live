@@ -1,0 +1,1 @@
+import("node:fs").then(module => module.default).then(fs => [...fs.readFileSync("input", { encoding: "utf-8" })].reduce(({floor, position}, char) => (floor === -1 ? {floor, position } : char === "(" ? { floor: floor + 1, position: ++position } : { floor: floor - 1, position: ++position }), { floor: 0, position: 0 })).then(acc => acc.position).then(console.log);
