@@ -5,11 +5,25 @@ Private Leaderboard code: `1586078-adbbc896`
 
 ## Javascript Web
 
+Open `index.html` in `javascript-web/day-[##]` directory.
+
 ## Python
+
+Go to `python/day-[##]` directory and run `python part-[#].py`.
+
+> cd python/day-[##]
+
+> python part-[#].py
 
 ## Javascript Node.js
 
-### AOC 2015 - Day 1
+Go to `javascript-node/day-[##]` directory and run `node part-[#].js`.
+
+> cd javascript-node/day-[##]
+
+> node part-[#].js
+
+## AOC 2015 - Day 1
 
 **--- Day 1: Not Quite Lisp ---**
 
